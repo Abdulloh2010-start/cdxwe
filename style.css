@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+@keyframes abdullo {
+
+    0%{
+        width: 200px;
+        height: 200px;
+        left: 0;
+        top: 0;
+        background-color: red;
+    }
+
+    25%{
+        width: 200px;
+        height: 200px;
+        left: 400px;
+        top: 0;
+        background-color: pink;
+    }
+
+    50%{
+        width: 200px;
+        height: 200px;
+        top: 400px;
+        left: 400px;
+        background-color: black;
+    }
+
+    75%{
+        width: 200px;
+        height: 200px;
+        top: 400px;
+        left: 0;
+        background-color: yellow;
+    }
+
+    100%{
+        width: 200px;
+        height: 200px;
+        left: 0;
+        top: 0;
+        background-color: red;
+    }
+}
+
+.box{
+    margin: 100px 2800px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 0;
+    background-color: red;
+    animation-name: abdullo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
